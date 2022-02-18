@@ -1,0 +1,12 @@
+{
+  "indent_size": 2,
+  "indent_char": "\t",
+  "space_in_empty_paren": true,
+  "wrap_attributes": "preserve",
+  "js":{
+    "space_after_anon_function": false,
+    "space_after_named_function": false,
+    "space_before_conditional":true,
+    "operator_position":"before-newline"
+  }  
+}

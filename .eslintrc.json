@@ -1,0 +1,37 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "globals": {
+    "Test": true,
+    "jQuery": true,
+    "$": true,
+    "moment": true,
+    "SS": true,
+    "Config": true,
+    "WT": true,
+    "ready": true,
+    "dataLayer": true,
+    "Trustpilot": true
+  },
+  "plugins": ["html"],
+  "parserOptions": {
+    "ecmaVersion": 2021,
+    "sourceType": "module",
+    "allowImportExportEverywhere": true,
+    "ecmaFeatures": {
+      "jsx": false
+    }
+  },
+  "extends": "eslint:recommended",
+  "rules": {
+    "semi": 1,
+    "no-undef": "error",
+    "no-mixed-spaces-and-tabs": 0,
+    "no-unused-vars": "warn",
+    "no-empty": 1,
+    "no-extra-boolean-cast": 0
+  }
+}
